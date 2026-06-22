@@ -75,15 +75,15 @@ CSS = """
     .mobm a{display:block;padding:14px 32px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.8);border-bottom:1px solid rgba(255,255,255,.06);transition:color .2s,background .2s}
     .mobm a:hover{color:var(--gold);background:rgba(255,255,255,.04)}
     #hero{position:relative;min-height:100svh;display:flex;align-items:center;background:var(--navy);overflow:hidden}
-    .hbg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=1800&q=80&auto=format&fit=crop');background-size:cover;background-position:center 40%;opacity:.22}
+    .hbg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1570129477492-45c003dc44a4?w=1800&q=80&auto=format&fit=crop');background-size:cover;background-position:center 35%;opacity:.26}
     .hov{position:absolute;inset:0;background:linear-gradient(135deg,rgba(27,42,74,.96) 0%,rgba(27,42,74,.75) 50%,rgba(27,42,74,.55) 100%)}
     .hcon{position:relative;z-index:2;padding:140px 0 80px}
     .hbdg{display:inline-flex;align-items:center;gap:10px;background:rgba(193,154,75,.12);border:1px solid rgba(193,154,75,.28);padding:8px 18px;margin-bottom:32px}
     .hbdg span{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-weight:600}
     .dot{width:5px;height:5px;background:var(--gold);border-radius:50%;display:inline-block}
-    .htit{font-size:clamp(36px,5.5vw,66px);font-weight:normal;color:#fff;max-width:700px;line-height:1.15;margin-bottom:22px}
+    .htit{font-size:clamp(38px,5.8vw,72px);font-weight:normal;color:#fff;max-width:760px;line-height:1.1;margin-bottom:22px}
     .htit em{font-style:italic;color:var(--gold)}
-    .hsub{font-size:clamp(16px,2vw,20px);color:rgba(255,255,255,.68);max-width:460px;margin-bottom:44px;line-height:1.7}
+    .hsub{font-size:clamp(16px,2vw,19px);color:rgba(255,255,255,.75);max-width:520px;margin-bottom:44px;line-height:1.8}
     .hact{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
     .btn1{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--navy);padding:15px 34px;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;transition:all .25s}
     .btn1:hover{background:var(--goldl);transform:translateY(-2px);box-shadow:0 8px 24px rgba(193,154,75,.35)}
@@ -97,14 +97,15 @@ CSS = """
     .ug{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,80px);align-items:center}
     .uiw{position:relative}
     .uimg{width:100%;aspect-ratio:4/5;object-fit:cover;display:block}
-    .uacc{position:absolute;bottom:-20px;right:-20px;width:130px;height:130px;background:var(--navy);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+    .uacc{position:absolute;bottom:-20px;right:-20px;width:135px;height:135px;background:var(--navy);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:3px solid var(--gold)}
     .uacc .un{font-family:Georgia,serif;font-size:36px;color:#fff;line-height:1}
     .uacc .ul{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);text-align:center;padding:0 10px}
     .ucont{padding-left:clamp(0px,2vw,16px)}
     .utxt{font-size:16px;color:var(--muted);line-height:1.85;margin-bottom:18px}
     .uqt{font-size:18px;font-family:Georgia,serif;color:var(--navy);font-style:italic;border-left:3px solid var(--gold);padding-left:20px;margin:30px 0;line-height:1.6}
     .ufacts{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:36px}
-    .ufact{background:var(--off);padding:18px;border-left:3px solid var(--gold)}
+    .ufact{background:var(--off);padding:18px 20px;border-left:3px solid var(--gold);transition:transform .2s}
+    .ufact:hover{transform:translateX(4px)}
     .ufact strong{display:block;font-family:Georgia,serif;font-size:22px;color:var(--navy);margin-bottom:3px}
     .ufact span{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
     #leistungen{padding:var(--sp) 0;background:var(--navy)}
@@ -153,7 +154,11 @@ CSS = """
     .fgrp input::placeholder,.fgrp textarea::placeholder{color:rgba(255,255,255,.28)}
     .fgrp input:focus,.fgrp textarea:focus{border-color:var(--gold);background:rgba(255,255,255,.09)}
     .fgrp textarea{min-height:110px;resize:vertical}
-    .fsub{width:100%;background:var(--gold);color:var(--navy);border:none;padding:15px;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:background .2s,transform .2s;margin-top:6px;font-family:inherit}
+    .fchk{display:flex;align-items:flex-start;gap:10px;margin:18px 0}
+    .fchk input[type=checkbox]{width:16px;height:16px;flex-shrink:0;margin-top:3px;accent-color:var(--gold);cursor:pointer}
+    .fchk label{font-size:12px;color:rgba(255,255,255,.45);line-height:1.55;cursor:pointer}
+    .fchk a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
+    .fsub{width:100%;background:var(--gold);color:var(--navy);border:none;padding:16px;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:background .2s,transform .2s;font-family:inherit}
     .fsub:hover{background:var(--goldl);transform:translateY(-1px)}
     .fpv{font-size:11px;color:rgba(255,255,255,.28);margin-top:10px;line-height:1.6}
     footer{background:var(--navyd);padding:48px 0 28px}

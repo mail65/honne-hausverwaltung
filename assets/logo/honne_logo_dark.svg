@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFFFFF"/>
+
+  <!-- BUILDING ICON -->
+  <!-- Main building body -->
+  <rect x="130" y="120" width="140" height="90" fill="#FFFFFF"/>
+  <!-- Roof / Gable -->
+  <polygon points="120,120 200,70 280,120" fill="#FFFFFF"/>
+  <!-- Oculus / Round window in gable -->
+  <circle cx="200" cy="105" r="10" fill="#FFFFFF"/>
+  <!-- Arcade windows (3 arches) -->
+  <rect x="145" y="130" width="22" height="30" rx="11" fill="#FFFFFF"/>
+  <rect x="189" y="130" width="22" height="30" rx="11" fill="#FFFFFF"/>
+  <rect x="233" y="130" width="22" height="30" rx="11" fill="#FFFFFF"/>
+  <!-- Central entrance arch -->
+  <rect x="183" y="168" width="34" height="42" rx="17" fill="#FFFFFF"/>
+  <!-- Left wing -->
+  <rect x="95" y="145" width="38" height="65" fill="#FFFFFF"/>
+  <polygon points="88,145 114,125 140,145" fill="#FFFFFF"/>
+  <rect x="102" y="153" width="12" height="18" rx="6" fill="#FFFFFF"/>
+  <rect x="118" y="153" width="12" height="18" rx="6" fill="#FFFFFF"/>
+  <!-- Right wing -->
+  <rect x="267" y="145" width="38" height="65" fill="#FFFFFF"/>
+  <polygon points="260,145 286,125 312,145" fill="#FFFFFF"/>
+  <rect x="270" y="153" width="12" height="18" rx="6" fill="#FFFFFF"/>
+  <rect x="286" y="153" width="12" height="18" rx="6" fill="#FFFFFF"/>
+  <!-- Base line -->
+  <rect x="88" y="210" width="224" height="4" fill="#FFFFFF"/>
+
+  <!-- ANCHOR (gold, below entrance) -->
+  <!-- Anchor ring -->
+  <circle cx="200" cy="188" r="7" fill="none" stroke="#C19A4B" stroke-width="2.5"/>
+  <!-- Anchor shaft -->
+  <line x1="200" y1="195" x2="200" y2="218" stroke="#C19A4B" stroke-width="2.5"/>
+  <!-- Anchor crossbar -->
+  <line x1="188" y1="202" x2="212" y2="202" stroke="#C19A4B" stroke-width="2.5"/>
+  <!-- Anchor flukes -->
+  <path d="M200,218 Q188,224 185,220" fill="none" stroke="#C19A4B" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M200,218 Q212,224 215,220" fill="none" stroke="#C19A4B" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- HONNE text -->
+  <text x="200" y="258" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="6">HONNE</text>
+
+  <!-- Gold divider line -->
+  <rect x="165" y="268" width="70" height="2" fill="#C19A4B"/>
+
+  <!-- HAUSVERWALTUNG text -->
+  <text x="200" y="292" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">HAUSVERWALTUNG</text>
+</svg>

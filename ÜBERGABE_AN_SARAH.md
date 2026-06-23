@@ -30,6 +30,12 @@ CNAME www  honnehausverwaltung.github.io
 
 → Nach ~30 Minuten läuft die Seite unter honnehausverwaltung.de. Kostenlos!
 
+## 🎂 Anlass & Deadline
+- Uwe Honne Geburtstag ~25.06.2026
+- Sarah will ihm die fertige Website zeigen
+- **Wunsch:** Schon unter honnehausverwaltung.de erreichbar, aber mit Passwortschutz (noch nicht öffentlich)
+- **Status:** Noch NICHT deployen — warten auf Sarahs GitHub-Account und Tobias' Freigabe
+
 ## Was noch offen ist
 - [ ] Foto für Über-uns-Section (aktuell: Hamburger Altbau-Stockfoto)
 - [ ] Echte Telefonnummer von Uwe eintragen

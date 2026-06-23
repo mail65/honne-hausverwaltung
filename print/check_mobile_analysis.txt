@@ -1,0 +1,31 @@
+
+🔍 MOBILE-RESPONSIVE ANALYSE DER "WARUM HONNE?" SEKTION
+=======================================================
+
+BEFUND:
+-------
+✅ Sektion "Warum Honne?" existiert auf https://mail65.github.io/honne-hausverwaltung/#warum
+✅ Foto "Uwe Honne mit Tochter" ist in der HTML-Struktur vorhanden
+❌ In mobiler Auflösung (390px): Bild hat CSS-Eigenschaft 'display: none'
+   → Das Foto ist in der Mobile-Ansicht versteckt/ausgeblendet!
+
+INTERPRETATION:
+---------------
+Dies ist ein **responsives Design-Problem**:
+- Desktop-View (1200px+): Foto SICHTBAR neben den vier Text-Blöcken
+- Mobile-View (390px): Foto ist mit 'display: none' versteckt
+  
+Dies könnte sein:
+1. Absichtlich designt (um Platz zu sparen auf mobilen Geräten)
+2. CSS-Fehler (falsches Media-Query Breakpoint)
+3. Bild sollte aber an anderer Stelle sichtbar sein
+
+ANTWORT AUF DIE FRAGE:
+---------------------
+"Sind die Gesichter von Uwe und Sarah in mobiler Auflösung vollständig sichtbar?"
+
+❌ NEIN - Die Gesichter sind nicht sichtbar, weil das Bild in der mobilen
+   Ansicht komplett versteckt ist (display: none).
+
+Dies ist ein **Responsive Design Issue** - das Foto sollte vermutlich auch
+in der mobilen Ansicht sichtbar sein, ist es aber nicht.
